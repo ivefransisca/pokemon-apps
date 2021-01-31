@@ -7,7 +7,6 @@ const MyProvider = (props) =>{
 		pokemonList : [],
 		myPokemonList: [],
 		activePokemon: {},
-		count: 0,
 	};
 
 	const actions = {

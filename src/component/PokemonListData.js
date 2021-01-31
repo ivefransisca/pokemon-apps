@@ -4,6 +4,7 @@ import PokemonCard from './PokemonCard';
 import { useContext, useEffect } from 'react';
 import MyContext from '../context/MyContext';
 import {useHistory} from 'react-router-dom';
+import Loading from './Loading';
 
 const PokemonListData = () =>{
 
@@ -49,8 +50,8 @@ const PokemonListData = () =>{
 		}
 	}`;
 	const { loading, error, data } = useQuery(GetAllPokemonQuery, {
-		"limit": 2,
-		"offset": 1
+		variables : {"limit": 20,
+		"offset": 1}
 	});
 	useEffect(() => {
 		if(context.pokemonList.length <= 0){
@@ -66,8 +67,8 @@ const PokemonListData = () =>{
 	}, [data, context])
 	console.log(data)
 
-	if (loading) return <p>Loading...</p>;
-	if (error) return <p>Error :(</p>;
+	if (loading) return <Loading/>;
+	if (error) return <p>Ups! Error :(</p>;
 	
 	return(
 		<MyContext.Consumer>

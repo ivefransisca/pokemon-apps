@@ -7,6 +7,7 @@ import PageWrapper from '../component/PageWrapper';
 import PokemonSpec from '../component/PokemonSpec';
 import RandomButton from '../component/RandomButton';
 import styled from '@emotion/styled';
+import Loading from '../component/Loading';
 
 const PokemonDetail = () =>{
 	let { pokemonName } = useParams();
@@ -63,8 +64,8 @@ const PokemonDetail = () =>{
 		variables : queryVariable
 	});
 
-	if (loading) return <PageWrapper>Loading...</PageWrapper>;
-	if (error) return <PageWrapper>Error :(</PageWrapper>;
+	if (loading) return <Loading />;
+	if (error) return <PageWrapper>Ups! Error :(</PageWrapper>;
 
 	const GetSpecDetail = () =>{
 		return(
