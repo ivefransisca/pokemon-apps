@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/pokemon-apps/static/css/main.5d3650b3.chunk.css",
-    "main.js": "/pokemon-apps/static/js/main.cb779cca.chunk.js",
-    "main.js.map": "/pokemon-apps/static/js/main.cb779cca.chunk.js.map",
-    "runtime-main.js": "/pokemon-apps/static/js/runtime-main.252cca8b.js",
-    "runtime-main.js.map": "/pokemon-apps/static/js/runtime-main.252cca8b.js.map",
-    "static/js/2.50090404.chunk.js": "/pokemon-apps/static/js/2.50090404.chunk.js",
-    "static/js/2.50090404.chunk.js.map": "/pokemon-apps/static/js/2.50090404.chunk.js.map",
-    "static/js/3.a1f0f7ed.chunk.js": "/pokemon-apps/static/js/3.a1f0f7ed.chunk.js",
-    "static/js/3.a1f0f7ed.chunk.js.map": "/pokemon-apps/static/js/3.a1f0f7ed.chunk.js.map",
-    "index.html": "/pokemon-apps/index.html",
-    "service-worker.js": "/pokemon-apps/service-worker.js",
-    "service-worker.js.map": "/pokemon-apps/service-worker.js.map",
-    "static/css/main.5d3650b3.chunk.css.map": "/pokemon-apps/static/css/main.5d3650b3.chunk.css.map",
-    "static/js/2.50090404.chunk.js.LICENSE.txt": "/pokemon-apps/static/js/2.50090404.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.5d3650b3.chunk.css",
+    "main.js": "/static/js/main.fcd1bd16.chunk.js",
+    "main.js.map": "/static/js/main.fcd1bd16.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c0f041f1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c0f041f1.js.map",
+    "static/js/2.50090404.chunk.js": "/static/js/2.50090404.chunk.js",
+    "static/js/2.50090404.chunk.js.map": "/static/js/2.50090404.chunk.js.map",
+    "static/js/3.a1f0f7ed.chunk.js": "/static/js/3.a1f0f7ed.chunk.js",
+    "static/js/3.a1f0f7ed.chunk.js.map": "/static/js/3.a1f0f7ed.chunk.js.map",
+    "index.html": "/index.html",
+    "service-worker.js": "/service-worker.js",
+    "service-worker.js.map": "/service-worker.js.map",
+    "static/css/main.5d3650b3.chunk.css.map": "/static/css/main.5d3650b3.chunk.css.map",
+    "static/js/2.50090404.chunk.js.LICENSE.txt": "/static/js/2.50090404.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.252cca8b.js",
+    "static/js/runtime-main.c0f041f1.js",
     "static/js/2.50090404.chunk.js",
     "static/css/main.5d3650b3.chunk.css",
-    "static/js/main.cb779cca.chunk.js"
+    "static/js/main.fcd1bd16.chunk.js"
   ]
 }
