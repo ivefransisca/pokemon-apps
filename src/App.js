@@ -6,6 +6,7 @@ import PokemonDetail from './container/PokemonDetail';
 import MyPokemon from './container/MyPokemon';
 import BottomNavBar from './component/BottomNavBar';
 import Wrapper from './component/Wrapper';
+import { Redirect } from 'react-router-dom';
 
 const App = ()=> {
 	
@@ -23,10 +24,12 @@ const App = ()=> {
 						<Route path="/:pokemonName">
 							<PokemonDetail data-testid="pokemon-detail" />
 						</Route>
+						<Route path="/pokemon-apps" render={() => <Redirect to={{pathname: "/"}} />} />
 					</Switch>
 				</Wrapper>
 				<BottomNavBar/>
 			</Router>
+			<R
 		</MyProvider>
 	);
 }
