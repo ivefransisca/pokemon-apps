@@ -24,12 +24,11 @@ const App = ()=> {
 						<Route path="/:pokemonName">
 							<PokemonDetail data-testid="pokemon-detail" />
 						</Route>
-						<Route path="/pokemon-apps" render={() => <Redirect to={{pathname: "/"}} />} />
+						<Route render={() => <Redirect to={{pathname: "/"}} />} />
 					</Switch>
 				</Wrapper>
 				<BottomNavBar/>
 			</Router>
-			<R
 		</MyProvider>
 	);
 }
