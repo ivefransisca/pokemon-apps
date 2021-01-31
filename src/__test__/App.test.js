@@ -1,16 +1,9 @@
-import ReactDOM from 'react-dom';
 import { Router } from 'react-router-dom';
 import BottomNavBar from '../component/BottomNavBar';
 import { createMemoryHistory } from 'history';
 import { ApolloClient, InMemoryCache } from '@apollo/client';
 import { ApolloProvider } from '@apollo/client';
-import { queryByTitle, render, screen } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
-import App from '../App';
-import MyPokemon from '../container/MyPokemon';
-import PokemonList from '../container/PokemonList';
-import MyContext from '../context/MyContext';
-import MyProvider from '../context/MyProvider';
+import { render } from '@testing-library/react';
 
 const client = new ApolloClient({
 	uri: 'https://graphql-pokeapi.vercel.app/api/graphql',

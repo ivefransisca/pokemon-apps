@@ -2,8 +2,7 @@ import ReactDOM from 'react-dom';
 import { Router } from 'react-router-dom';
 import BottomNavBar from '../component/BottomNavBar';
 import { createMemoryHistory } from 'history';
-import userEvent from '@testing-library/user-event';
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 
 
 describe('<BottomNavbar />', () => {
