@@ -25,7 +25,7 @@ const Form = () =>{
 			const dataActivePokemon = {...context.activePokemon}
 			dataActivePokemon.nickname = nicknameInput
 			context.addMyPokemon(dataActivePokemon)
-			history.push('/pokemon-apps/my-pokemon');
+			history.push('/my-pokemon');
 		}
 	}
 

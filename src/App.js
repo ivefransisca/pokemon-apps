@@ -14,17 +14,17 @@ const App = ()=> {
 			<Router>
 				<Wrapper>
 					<Switch>
-						<Route exact path="/pokemon-apps/">
+						<Route exact path="/">
 							<PokemonList data-testid="pokemon-list" />
 						</Route>
-						<Route exact path="/pokemon-apps/my-pokemon">
+						<Route exact path="/my-pokemon">
 							<MyPokemon data-testid="my-pokemon" />
 						</Route>
-						<Route exact path="/pokemon-apps/pokemondetail/:pokemonName">
+						<Route exact path="/pokemondetail/:pokemonName">
 							<PokemonDetail data-testid="pokemon-detail" />
 						</Route>
-						<Route>
-							<Redirect to="/pokemon-apps/" />
+						<Route >
+							<Redirect to="/" />
 						</Route>
 					</Switch>
 				</Wrapper>

@@ -52,13 +52,13 @@ const BottomNavBar = () =>{
 		<Wrapper>
 			<Row>
 				<Column>
-					<Link to="/pokemon-apps/" data-testid="pokemon-list-link">
+					<Link to="/" data-testid="pokemon-list-link">
 						<FontAwesomeIcon className="mr-2" icon={faBook} />				
 						<NavName>Pokemon List</NavName>
 					</Link>
 				</Column>
 				<Column>
-					<Link to="/pokemon-apps/my-pokemon" data-testid="my-pokemon-link">
+					<Link to="/my-pokemon" data-testid="my-pokemon-link">
 						<FontAwesomeIcon className="mr-2" icon={faHandHoldingHeart} />	
 						<NavName>My Pokemon</NavName>
 					</Link>
