@@ -18,7 +18,7 @@ const Modal = (props) =>{
 	const ModalBody = styled('div')`
 		z-index: 1000;
 		position: absolute;
-		top: 42%;
+		top: 35%;
 		left: 50%;
 		width: 280px;
 		max-width: 100%;

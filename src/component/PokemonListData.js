@@ -13,7 +13,7 @@ const PokemonListData = () =>{
 
 	const goToDetail = (data) =>{
 		context.setActivePokemon(data)
-		history.push(`/pokemondetail/${data.name}`)
+		history.push(`/pokemon-apps/pokemondetail/${data.name}`)
 	}
 	const List = styled('div')`
 		-webkit-box-flex: 0;

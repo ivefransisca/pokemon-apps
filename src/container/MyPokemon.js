@@ -78,14 +78,6 @@ const MyPokemon = () =>{
 								<Link to="/pokemon-apps/">Pokemon List</Link>
 							</NoPokemon>
 						}
-						{/* <h3>You don't have any pokemon yet! Catch pokemon firsts</h3>
-						{
-							context.myPokemon.map((data,index) => (
-								<List key={index}>
-									<PokemonCard data={data}></PokemonCard>
-								</List>
-							))
-						} */}
 					</ListWrapper>
 				</PageWrapper>
 			)}
