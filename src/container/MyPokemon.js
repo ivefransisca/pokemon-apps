@@ -75,7 +75,7 @@ const MyPokemon = () =>{
 							<NoPokemon>
 								<h3>You don't have any Pokemon yet! </h3>
 								<h3>Catch Pokemon first!</h3>
-								<Link to="/">Pokemon List</Link>
+								<Link to="/pokemon-apps/">Pokemon List</Link>
 							</NoPokemon>
 						}
 						{/* <h3>You don't have any pokemon yet! Catch pokemon firsts</h3>
